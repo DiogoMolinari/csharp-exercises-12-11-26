@@ -11,7 +11,9 @@ qntLines = int.Parse(Console.ReadLine());
 Console.Write("Agora digite a quantidade de colunas que sua matriz deverá ter: ");
 qntColumns = int.Parse(Console.ReadLine());
 
-int[,] matrix = new int[qntLines, qntColumns];void PopulateMatrix()
+int[,] matrix = new int[qntLines, qntColumns];
+
+void PopulateMatrix()
 { 
     for (int i = 0; i < qntLines; i++)
     {

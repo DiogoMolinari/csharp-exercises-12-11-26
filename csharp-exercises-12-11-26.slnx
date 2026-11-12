@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="Ex1ShowMatrices/Ex1ShowMatrices.csproj" />
   <Project Path="Ex2CopyAndInvertMatrix/Ex2CopyAndInvertMatrix.csproj" />
+  <Project Path="ex3CompleteMatrix/ex3CompleteMatrix.csproj" Id="0c213274-cf92-480d-aada-e20af34597a5" />
+  <Project Path="ex4AveragesMatrix/ex4AveragesMatrix.csproj" Id="13cb8781-644c-450e-936f-77405e4ffbaf" />
   <Project Path="matrices/matrices.csproj" />
 </Solution>

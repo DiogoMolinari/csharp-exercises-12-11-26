@@ -2,7 +2,12 @@
 
 using System.Security.Cryptography;
 
-int[,] NormalMatrix = new int[3, 5];int[,] InvertedMatrix = new int[3, 5];int[,] TransposedMatrix = new int[5, 3];void GenerateMatrix()
+int[,] NormalMatrix = new int[3, 5];
+int[,] InvertedMatrix = new int[3, 5];
+int[,] TransposedMatrix = new int[5, 3];
+
+
+void GenerateMatrix()
 {
     for (int i = 0; i < 3; i++)
     {
@@ -11,7 +16,8 @@ int[,] NormalMatrix = new int[3, 5];int[,] InvertedMatrix = new int[3, 5];int[
             NormalMatrix[i, j] = RandomNumberGenerator.GetInt32(1, 9);
         }
     }
-}
+}
+
 void TransposeMatrix()
 {
     for (int i = 0; i < 3; i++)
