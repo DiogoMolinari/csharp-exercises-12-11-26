@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AveragesMatrixPestanaVersion/AveragesMatrixPestanaVersion.csproj" Id="00c4fd4a-f18f-407e-9e70-8e8a90630e55" />
   <Project Path="Ex1ShowMatrices/Ex1ShowMatrices.csproj" />
   <Project Path="Ex2CopyAndInvertMatrix/Ex2CopyAndInvertMatrix.csproj" />
   <Project Path="ex3CompleteMatrix/ex3CompleteMatrix.csproj" Id="0c213274-cf92-480d-aada-e20af34597a5" />
